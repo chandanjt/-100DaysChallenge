@@ -10,9 +10,8 @@ Example 1:
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].*/
-//Code:
-class Solution {
-public:
+// C++ Code:
+
     vector<int> twoSum(vector<int>& nums, int target) {
          int i,j,k=0;
         vector<int>arr;
@@ -26,9 +25,7 @@ public:
                   break;
                }
 
-
             }
         }
         return arr;
     }
-};
